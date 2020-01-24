@@ -110,5 +110,4 @@ public class RxKmsCrypto{
         byte[] decryptedText = cipher.doFinal(cipherText);
 
         return new String(decryptedText);
-    }
-}
+    
